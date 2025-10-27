@@ -142,3 +142,7 @@ body, html {
 #my-first-div {
   background-color: rgb(244, 200, 207);
 }
+
+body, html{
+  padding:20px;
+}
