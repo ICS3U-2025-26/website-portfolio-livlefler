@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Liv Lefler's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(255, 231, 242);"></body>
+  <!-- Overlay (for when sidebar is open) -->
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <!-- Sidebar -->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <button class="sidebar-close" id="sidebarClose">×</button>
+      <h2>Navigation</h2>
+    </div>
+    <ul class="sidebar-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">My Projects</a></li>
+      <li class="has-submenu">
+        <button class="submenu-toggle">Quick Links ▾</button>
+        <ul class="submenu">
+          <li><a href="unit1.html">Unit 1</a></li>
+          <li><a href="unit2.html">Unit 2</a></li>
+          <li><a href="unit3.html">Unit 3</a></li>
+          <li><a href="unit4.html">Unit 4</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="gaming.html">Gaming Corner</a></li>
+      <li><a href="resources.html">Resources</a></li>
+    </ul>
+  </nav>
+
+  <!-- Button to open sidebar -->
+  <button class="sidebar-open" id="sidebarOpen">☰ Menu</button>
+<br>
+  <!-- Main content -->
+  <div class="main-content">
+    <h1>Unit 2</h1>
+    <p>This is where you can find the projects that I worked on throughout Unit 2.</p>
+    <p>The first task that we worked on was creating a quiz using java script. We had to create a pop-up box quiz which opens in a new tab and asks you a series of questions. Below, you can find a link to that quiz. For the true or false quesitons, the OK box indicates true and the cancel box indicateds false.</p>
+    <a href="http://127.0.0.1:3002/index.html?serverWindowId=7a26957e-02ed-419b-b21b-c2565fb548ac" target="_blank">My Quiz</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

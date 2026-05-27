@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Liv Lefler's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(255, 231, 242);">
+  <!-- Overlay (for when sidebar is open) -->
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+  <!-- Sidebar -->
+  <nav class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <button class="sidebar-close" id="sidebarClose">×</button>
+      <h2>Navigation</h2>
+    </div>
+    <ul class="sidebar-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">My Projects</a></li>
+      <li class="has-submenu">
+        <button class="submenu-toggle">Quick Links ▾</button>
+        <ul class="submenu">
+          <li><a href="unit1.html">Unit 1</a></li>
+          <li><a href="unit2.html">Unit 2</a></li>
+          <li><a href="unit3.html">Unit 3</a></li>
+          <li><a href="unit4.html">Unit 4</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="gaming.html">Gaming Corner</a></li>
+      <li><a href="resources.html">Resources</a></li>
+    </ul>
+  </nav>
+
+  <!-- Button to open sidebar -->
+  <button class="sidebar-open" id="sidebarOpen">☰ Menu</button>
+<br>
+  <!-- Main content -->
+  <div class="main-content">
+    <div id="my-first-div">
+        <h1>Welcome to my portolio!</h1>
+    </div>
+    </div>
+    <img src="sunrise.jpeg" width = 200 alt="A picture of the sunrise at my camp.">
+    <img src="camp.jpeg" width = 200 alt="A pocutre of me and four friends on the last morning of camp.">
+    <br>
+    <p>Welcome! This site is a combination of all of my projects in the 2025-2026 computer science course. Below, you can learn a little bit about me, access all of the projects I have worked on, and check out some of the games I have made in the gaming corner!</p>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
